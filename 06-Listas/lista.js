@@ -37,6 +37,7 @@ let frutas = ["manzana", "banana", "uva", "pera"]
 console.log(frutas)
 
 console.log(frutas.includes("manzana"))
+console.log(frutas.includes("manzana2"))
 
 
 console.log(frutas.slice(0, 2))
