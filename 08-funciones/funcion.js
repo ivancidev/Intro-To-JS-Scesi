@@ -13,7 +13,7 @@ function sumar(a, b = 0) {
   return a + b;
 }
 
-console.log(sumar(3, 10));
+console.log(sumar(3));
 
 // ambito
 let edad = 10;
@@ -23,6 +23,7 @@ function mostrar() {
   const puerto = 4000;
   let color = "azul";
   console.log(puerto);
+  console.log(edad);
 }
 
 mostrar();
@@ -52,4 +53,4 @@ let existeProducto = (productos, producto) =>
 
 let productos = ["leche", "galleta", "oreo", "soda"];
 console.log(funcionLista3(productos, "jugo"));
-console.log(existeProducto(productos, "jugo2"));
+console.log(existeProducto(productos, "jugo"));
